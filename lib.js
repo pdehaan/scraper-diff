@@ -3,7 +3,7 @@ const prettyjson = require('prettyjson');
 const sortjson = require('sort-json');
 
 const EMBEDLY_PROXY = 'https://embedly-proxy.services.mozilla.com/v2/extract';
-const FATHOM_PROXY = 'https://metadata.dev.mozaws.net/';
+const FATHOM_PROXY = 'https://page-metadata.services.mozilla.com/v1/metadata';
 
 module.exports = {
   EMBEDLY_PROXY,
